@@ -76,7 +76,7 @@ h4 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 40px;
 }
 
 .teas {
@@ -113,7 +113,9 @@ h4 {
   justify-content: center;
   align-items: center;
   height: 500px;
-  background-image: url("../images/locationsBackground.jpg")
+  background-image: url("../images/locationsBackground.jpg");
+  background-size: 1200px 750px;
+  margin-top: 40px;
 }
 
 .stage3 h2 {
@@ -135,7 +137,7 @@ h4 {
   flex-direction:column;
   justify-content: space-around;
   width: 300px;
-  height:250px;
+  height:260px;
 }
 
 .center {
@@ -143,7 +145,7 @@ h4 {
   flex-direction: column;
   justify-content: space-around;
   width: 300px;
-  height:250px;
+  height:260px;
 }
 
 .right {
@@ -151,5 +153,26 @@ h4 {
   flex-direction: column;
   justify-content: space-around;
   width: 300px;
-  height:250px;
+  height:260px;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  flex-direction:column;
+  justify-content: space-around;
+  height:200px;
+}
+
+.copyright {
+  display:flex;
+  width: 1200px;
+}
+
+.copyright h5 {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  width:100%;
 }
