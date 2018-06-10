@@ -5,7 +5,7 @@
   font-size: 22px;
   color:seashell;
   background-color: black;
-  opacity: 0.9;
+  opacity: 0.95;
   text-align: center;
 }
 
@@ -103,22 +103,53 @@ h4 {
 
 .stage2 h4 {
   margin-bottom: 15px;
+  margin-top: 10px;
 }
 
 .stage3 {
-  width: 100%;
+  width: 1200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 500px;
-  background-image: url("../images/locationsBackground.jpg");
+  background-image: url("../images/locationsBackground.jpg")
 }
 
-.location {
-  width: 300px;
-  opacity: 1;
+.stage3 h2 {
+  margin-bottom: 15px;
+  background-color: #11ffee00;
   display: flex;
-  justify-content: space-between;
-  width:100%;
+  justify-content: center
+}
+
+.stage3 .location {
+  display: flex;
+  justify-content: space-around;
+  width: 1200px;
+  background-color: #11ffee00;
+}
+
+.left {
+  display: flex;
+  flex-direction:column;
+  justify-content: space-around;
+  width: 300px;
+  height:250px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 300px;
+  height:250px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 300px;
+  height:250px;
 }
