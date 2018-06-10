@@ -36,7 +36,6 @@
 /* Main */
 
 .main {
-  width:1200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -53,6 +52,7 @@
 }
 
 .banner {
+  width:1200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -60,12 +60,65 @@
   background-color: black;
 }
 
-.banner h2 {
+h2 {
   text-align: center;
   font-size: 1.5em;
 }
 
-.banner h4 {
+h4 {
   text-align: center;
   font-size: 1em;
+}
+
+.stage2 {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.teas {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bottomtea {
+  display: flex;
+  justify-content: center;
+}
+
+.stage2 img {
+  height: 200px;
+  width: 300px;
+  margin-right: 30px;
+}
+
+.stage2 h2 {
+  margin-bottom: 15px;
+}
+
+.stage2 h4 {
+  margin-bottom: 15px;
+}
+
+.stage3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-image: url("../images/locationsBackground.jpg");
+}
+
+.location {
+  width: 300px;
+  opacity: 1;
+  display: flex;
+  justify-content: space-between;
+  width:100%;
 }
