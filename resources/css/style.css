@@ -5,7 +5,7 @@
   font-size: 22px;
   color:seashell;
   background-color: black;
-  opacity: 0.95;
+  opacity: 0.93;
   text-align: center;
 }
 
@@ -17,6 +17,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  margin: 0;
+  position: fixed;
+  border-bottom: 1px solid white;
+  z-index: 3;
 }
 
 .header img {
@@ -167,7 +172,7 @@ h4 {
 
 .copyright {
   display:flex;
-  width: 1200px;
+  width: 1180px;
 }
 
 .copyright h5 {
@@ -175,4 +180,6 @@ h4 {
   justify-content: flex-start;
   text-align: left;
   width:100%;
+  position: absolute;
+  margin-left: 20px;
 }
